@@ -1,0 +1,24 @@
+{
+  "name": "twitter_sentiment_analysis",
+  "version": "1.0.0",
+  "description": "A MEAN Stack Web App that takes a query,fetches tweets regarding that query and returns what tweets sentiments are towards that topic.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Ankit Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^3.3.7",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.17",
+    "python-shell": "^0.5.0",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
